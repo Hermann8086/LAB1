@@ -64,7 +64,7 @@ cd шлях до файлу
 
 git clone  посилання до репозиторію
 
-cd будь-яка назва нашого репозиторію
+cd назва нашого репозиторію
 
 git status
 
@@ -74,9 +74,9 @@ git status
 
 git commit -m "Будь-який коментарій"
 
-"git push"
+'git push'
 
-git status
+'git status'
 
 Висновки:
 
