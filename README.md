@@ -74,9 +74,10 @@ git status
 
 git commit -m "Будь-який коментарій"
 
-'git push'
+git push
 
-'git status'
+git status
+```
 
 Висновки:
 
