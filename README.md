@@ -25,14 +25,14 @@ git config --global user.name "Hermann8086"
 ```
 
 ```
-git config --global user.email <h.o.stadnyk@student.khai.edu>[]()
+git config --global user.email h.o.stadnyk@student.khai.edu
 ```
 
 
 4\. Геренуємо SSH ключ командою:
 
 ```
-ssh-keygen -t ed25519 -C "<h.o.stadnyk@student.khai.edu>[]()"
+ssh-keygen -t ed25519 -C "h.o.stadnyk@student.khai.edu"
 ```
 
 Отримали наш персональний файл з ключем
@@ -60,7 +60,7 @@ ssh-keygen -t ed25519 -C "<h.o.stadnyk@student.khai.edu>[]()"
 Рисунок 1.6 — SSH ключ репозиторія
 
 ```
-git clone <git@github.com>[]():Hermann8086/LAB1.git
+git clone git@github.com:Hermann8086/LAB1-2.git
 ```
 
 ![](Aspose.Words.fa2bca98-f633-40d9-b968-308c3324d1da.007.png)
@@ -74,7 +74,7 @@ cd шлях до файлу
 ```
 
 ```
-git clone  посилання до репозиторію
+git clone  посилання(ключ HTTPS або SSH) до репозиторію
 ```
 
 ```
