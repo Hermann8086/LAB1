@@ -19,13 +19,13 @@
 Рисунок 1.2 — Git Bash
 
 3\. Для подальшої роботи налаштуємо гіт у Git Bash, від нас треба вказати ім’я аккаунта та пошту:
-
+```
 git config --global user.name "Hermann8086"
-
+```
 git config --global user.email <h.o.stadnyk@student.khai.edu>[]()
 
 4\. Геренуємо SSH ключ командою:
-
+```
 ssh-keygen -t ed25519 -C "<h.o.stadnyk@student.khai.edu>[]()"
 
 Отримали наш персональний файл з ключем
@@ -51,7 +51,7 @@ ssh-keygen -t ed25519 -C "<h.o.stadnyk@student.khai.edu>[]()"
 ![](Aspose.Words.fa2bca98-f633-40d9-b968-308c3324d1da.006.png)
 
 Рисунок 1.6 — SSH ключ репозиторія
-
+```
 git clone <git@github.com>[]():Hermann8086/LAB1.git
 
 ![](Aspose.Words.fa2bca98-f633-40d9-b968-308c3324d1da.007.png)
@@ -59,25 +59,24 @@ git clone <git@github.com>[]():Hermann8086/LAB1.git
 Рисунок 1.7 — Папка репозиторія
 
 8\. Всі команди та послідовність як зробити комміт наших файлів у папку репозиторію:
-
+```
 cd шлях до файлу
-
+```
 git clone  посилання до репозиторію
-
+```
 cd назва нашого репозиторію
-
-git status
-
-git add .
-
-git status
-
-git commit -m "Будь-який коментарій"
-
-git push
-
+```
 git status
 ```
+git add .
+```
+git status
+```
+git commit -m "Будь-який коментарій"
+```
+git push
+```
+git status
 
 Висновки:
 
